@@ -1,0 +1,73 @@
+#div1{
+    height: 160px;
+    width: 160px;
+    border-style: dashed;
+    position: static;
+    top: 100px;
+    right: 100px;
+}
+#div2{
+    height: 160px;
+    width: 160px;
+    border-style: solid;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+#space{
+
+    height: 160px;
+    width: 160px;
+    border-style: dotted;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+#circle{
+    height: 160px;
+    width: 160px;
+    border-style: solid;
+    position: absolute;
+    top: 100px;
+    margin-left: 250px;
+}
+#div5{
+    height: 160px;
+    width: 160px;
+    border-style: solid;
+    position: static;
+    top: 1500px;
+    left: 1500px;
+}
+
+#div6{
+    height: 160px;
+    width: 160px;
+    border-style: solid;
+    position: static;
+    top: 1500px;
+    left: 1500px;
+}
+
+
+#div7{
+    height: 160px;
+    width: 160px;
+    border-style: solid;
+    position: static;
+    top: 1500px;
+    left: 1500px;
+}
+
+#div8{
+    height: 160px;
+    width: 160px;
+    border-style: dotted;
+    position: absolute;
+    margin-bottom: 2500px;
+    right: 450px;
+}
+
+
+
+

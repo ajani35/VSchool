@@ -1,0 +1,39 @@
+
+div.would-be {
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+     background-image: url('coolBrezze.jpg'); background-repeat: no-repeat;  background-attachment: fixed; background-size: 100% 100%;
+}
+
+h2, h3 {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.smoke {
+    font-size: 35px;
+    font-style: italic;
+    background-color: #b4e;
+}
+
+div.lowDown {
+    font-size: 15px;
+    font-style: bold;
+    display: inline;
+}
+
+p {
+    background-color: rgb(255, 0, 30);
+    display: block;
+}
+
+a {
+    display: block;
+}
+
+h6 {
+    display: inline;
+}
