@@ -42,8 +42,8 @@ addItem.addEventListener("submit", (e)=> {
 });
 
 
-
-
+/* credit for assignment: Dev A. T Viet Nam
+https://youtu.be/7Yigdj6lEXk*/
     
     
 
