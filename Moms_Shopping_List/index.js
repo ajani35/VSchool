@@ -42,7 +42,7 @@ addItem.addEventListener("submit", (e)=> {
 });
 
 
-/* credit for assignment: Dev A. T Viet Nam
+/* Dev A. T Viet Nam gave me an idea for the assignment
 https://youtu.be/7Yigdj6lEXk*/
     
     
