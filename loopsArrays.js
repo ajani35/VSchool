@@ -17,16 +17,6 @@ console.log(count);
 
 
 
-
-
-
-
-
-
-
-
-
-
 var peopleWhoWantToSeeMadMaxFuryRoad = [
     {
       name: "Mike",
