@@ -1,0 +1,200 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#box_edge {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(10, 200px);
+
+}
+
+main {
+    background-color: coral;
+    text-align: center;
+    grid-column: 1 / span 4;
+    grid-row: 2 / 4;
+
+}
+
+nav {
+    background-color: silver;
+    text-align: center;
+    grid-column: 6 / 9;
+    grid-row: 2 / 4;
+}
+
+header {
+    background-color: lightcoral;
+    text-align: center;
+    grid-column: 1 / span 9;
+}
+
+#box_edge > div:nth-child(4) {
+    background-color: firebrick;
+    text-align: center;
+    grid-column: 5 / 6;
+    grid-row: 2 / 4;
+}
+
+.hey {
+    background-color: burlywood;
+    text-align: center;
+    grid-column: 1 / 9;
+    grid-row: 6 / 7;  
+}
+
+#box_edge > div:nth-child(6) {
+    background-color: blanchedalmond;
+    text-align: center;
+    grid-column: 1 / 9;
+    grid-row: 4 / 5;
+
+}
+
+footer {
+    background-color: greenyellow;
+    text-align: center;
+    grid-column: 1 / 9;
+}
+
+.about {
+    position: relative;
+    top: 200px;
+}
+
+.outro {
+    position: relative;
+    top: 300px;
+}
+
+.intro {
+    position: relative;
+    top: 100;
+}
+
+
+
+@media only screen and (min-width: 400px) {
+
+    main {
+        background-color: blue;
+        text-align: center;
+        grid-column: 1 / span 4;
+        grid-row: 2 / 4;
+    
+    }
+    
+    nav {
+        background-color: white;
+        text-align: center;
+        grid-column: 6 /  8;
+        grid-row: 2 / 4;
+        border: 2px dotted yellow;
+    }
+    
+    header {
+        background-color: cornflowerblue;
+        text-align: center;
+        grid-column: 1 / 10;
+    }
+    
+    #box_edge > div:nth-child(4) {
+        background-color: coral;
+        text-align: center;
+        grid-column: 5 / 6;
+        grid-row: 2 / 4;
+        border: 2px dashed black;
+    }
+    
+    .hey {
+        background-color: saddlebrown;
+        text-align: center;
+        grid-column: 1 / 9;
+        grid-row: 6 / 7;  
+    }
+    
+    #box_edge > div:nth-child(6) {
+        background-color: yellow;
+        text-align: center;
+        grid-column: 1 / 9;
+        grid-row: 4 / 5;
+    
+    }
+    
+    footer {
+        background-color: gray;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 650px) {
+
+    main {
+        background-color: purple;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 2 / 4;
+    
+    }
+    
+    nav {
+        background-color: aqua;
+        text-align: center;
+        grid-column: 6 / 9;
+        grid-row: 2 / 4;
+        border: 2px dotted black;
+    }
+    
+    header {
+        background-color: red;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    #box_edge > div:nth-child(4) {
+        background-color: blue;
+        text-align: center;
+        grid-column: 4 / 6;
+        grid-row: 2 / 4;
+        border: 2px dotted orchid;
+    }
+    
+    .hey {
+        background-color: orange;
+        text-align: center;
+        grid-column: 4 / 9;
+        grid-row: 4 / 5;  
+    }
+    
+    #box_edge > div:nth-child(6) {
+        background-color: gold;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+    
+    }
+    
+    footer {
+        background-color: magenta;
+        text-align: center;
+        grid-column: 1 / 10;
+        grid-row: 5 / 7;
+
+    }
+
+
+
+
+
+}
