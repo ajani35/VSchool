@@ -37,5 +37,5 @@ function nodeCalculator(num1, num2, interOperation) {
 }
 nodeCalculator(num1, num2, interOperation);
 
-/* credit for assignment: Valencia Parr
+/* help with this assignment: Valencia Parr
 https://portfolium.com/entry/javascript-calculator-using-node-and-readline-sync*/
