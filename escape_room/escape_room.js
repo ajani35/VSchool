@@ -60,7 +60,7 @@ while (!endEscapeRoom){
             console.log("You won't get out alive going that way....")
 
     }
-}
+} // with help from Kensnow
 
 winDefault ? console.log("EveryBody is happy to see you, man!!!") : console.log("You made the CBS Evening News!!!")
 
