@@ -43,7 +43,8 @@
 
 
 .button:hover {
-    background-color: #323330;
+    background-color: #060605;
+;
     color: white;
     transition: 0.5s ease-in-out;
 }
