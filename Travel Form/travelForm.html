@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Documentation</title>
+</head>
+
+<body>
+    <h1>Welcome to Dawson Airlines!!!</h1>
+    <p>Please fill out the folowing information...</p>
+    <form name="airlineForm" id="airlineForm">
+        <label for="">First Name</label>
+        <input type="text" name="first-name">
+        <br>
+        <label for="">Last Name</label>
+        <input type="text" name="last-name">
+        <br>
+        <label for="">Age</label>
+        <input type="digit" name="age">
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Male" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="Female" id="female">
+        <label for="don't want to know">I Don't Want To Know</label>
+        <input type="radio" name="gender" value="don't want to know" id="don't want to know">
+        <br>
+        <label for="">Location:</label>
+        <select name="Location">
+            <option value="Ibiza">Ibiza</option>
+            <option value="Venice">Venice</option>
+            <option value="New Orleans">New Orleans</option>
+        </select>
+        <br>
+        <label for="vegan">Vegan</label>
+        <input class="diet" type="checkbox" name="vegan" id="vegan" value="Vegan">
+        <br>
+        <label for="kosher">Kosher</label>
+        <input class="diet" type="checkbox" name="kosher" id="kosher" value="Kosher">
+        <br>
+        <label for="lactose-free">Lactose Free</label>
+        <input class="diet" type="checkbox" name="lactose-free" id="lactose-free" value="Lactose-Free">
+        <br>
+        <button type="button" id="submit">Submit</button>
+    </form>
+    <script src="travelForm.js"></script>
+
+</body>
+
+</html>
